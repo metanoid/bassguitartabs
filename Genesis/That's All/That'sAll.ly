@@ -130,92 +130,6 @@ s s s s \break
 }
 
 
-\new Staff \with {
-stringTunings = #bass-tuning
-	} 
-{\set Staff.midiInstrument = #"electric bass (finger)"
-			
-\clef "bass_8"
-			
-\relative c, {
-
-			  
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 c\3 d\3 
-			  
-e\3 e\3 e\3 e\3
-			  
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 c\3 d\3 
-			  
-e\3 e\3 e\3 e\3
-			  
-a,\4 b\4 d\3 e16\3 (fis16\3) a8\2 
-			  
-a,4\4 b\4 d\3 e16\3 (fis16\3) a8\2 
-			  
-a,4\4 b\4 d\3 d8\3 b\4
-			  
-e4\3 e\3 e\3 e\3
-
-g\3  b\2 d\2 g,\3
-
-a\3 b\3 a\3 d,\4
-
-g\3 b\2 d\2 g,\3
-
-a\3 b\3 a\3 d,\4
-
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 c\3 d\3 
-			  
-e\3 e\3 e\3 e\3
-
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 e\3 e\3 
-			  
-e\3 e\3 c\3 d\3 
-			  
-e\3 e\3 e\3 e\3
-
-a,\4 b\4 d\3 e16\3 (fis16\3) a8\2 
-			  
-a,4\4 b\4 d\3 e16\3 (fis16\3) a8\2 
-			  
-a,4\4 b\4 d\3 d8\3 b\4
-			  
-e4\3 e\3 e\3 e\3
-
-g\3  b\2 d\2 g,\3
-
-a\3 b\3 a\3 d,\4
-
-g\3 b\2 d\2 g,\3
-
-a\3 b\3 a\3 d,\4
-
-e\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3
-
-e4\3 e\3 e\3 e\3 
-			  
-e\3 e\3 c\3 d\3 
-			  
-e\3 e\3 e\3 e\3
-
-}
-} 
-
-
 \new Lyrics \lyricsto "voice" \lyricmode { 
 		
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
@@ -259,6 +173,117 @@ all _ _ _
         
     
 }		  
+
+
+
+\new Staff \with {
+stringTunings = #bass-tuning
+	} 
+{\set Staff.midiInstrument = #"electric bass (finger)"
+			
+\clef "bass_8"
+			
+\relative c, {
+
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 c\3 d\3 
+			  
+e\3 e\3 e\3 e\3 \break
+			  
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 c\3 d\3 
+			  
+e\3 e\3 e\3 e\3\break
+			  
+a,\4 b\4 d\3 e16\3 (fis16\3) a8\2 
+			  
+a,4\4 b\4 d\3 e16\3 (fis16\3) a8\2 
+			  
+a,4\4 b\4 d\3 d8\3 b\4
+			  
+e4\3 e\3 e\3 e\3 \break
+
+g\3  b\2 d\2 g,\3
+
+a\3 b\3 a\3 d,\4
+
+g\3 b\2 d\2 g,\3
+
+a\3 b\3 a\3 d,\4 \break
+
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 c\3 d\3 
+			  
+e\3 e\3 e\3 e\3 \break
+
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 e\3 e\3 
+			  
+e\3 e\3 c\3 d\3 
+			  
+e\3 e\3 e\3 e\3 \break
+
+a,\4 b\4 d\3 e16\3 (fis16\3) a8\2 
+			  
+a,4\4 b\4 d\3 e16\3 (fis16\3) a8\2 
+			  
+a,4\4 b\4 d\3 d8\3 b\4
+			  
+e4\3 e\3 e\3 e\3 \break
+
+g\3  b\2 d\2 g,\3
+
+a\3 b\3 a\3 d,\4
+
+g\3 b\2 d\2 g,\3
+
+a\3 b\3 a\3 d,\4 \break
+
+e\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3
+
+e4\3 e\3 e\3 e\3 
+			  
+e\3 e\3 c\3 d\3 
+			  
+e\3 e\3 e\3 e\3 \break
+
+s s s s
+
+s s s s
+
+s s s s
+
+s s s s \break
+
+s s s s
+
+s s s s
+
+s s s s
+
+s s s s \break
+
+s s s s
+
+s s s s
+
+s s s s
+
+s s s s \break
+
+}
+} 
+
 
 		
 
