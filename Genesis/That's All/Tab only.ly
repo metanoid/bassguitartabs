@@ -161,9 +161,33 @@ e\3 e\3 e\3 e\3
 			  
 e\3 e\3 c\3 d\3 
 			  
-e\3 e\3 e\3 e\3 \break
+e\3 e\3 e\3 e\3 %\break
 
-s s s s
+a,\4 b\3 d\3 e16\3 (fis16\3) a8\2 
+
+a,4\4 b\3 d\3 a'16\2 (b16\2) e,8\3 
+
+a,4\4 b\3 d\3 e16\3 (fis16\3) a8\2 
+
+e4\3 e\3 e\3 e8\3 b16\4 cis16\4 \break
+
+e4\3 e\3 e\3 e8\3 b8\4
+
+e4\3 e\3 e\3 b8\4 cis8\4
+
+e4\3 e\3 c\3 d\3
+
+e\3 e\3 e\3 e\3 %\break
+
+a,\4 b8\3 c8\3 d4\3 e16\3 (fis16\3) a8\2
+
+a,4\4 b8\3 c8\3 d4\3 e8\3 fis8\3
+
+a,4\4 b\3 d4\3 e16\3 (fis16\3) a8\2
+
+e4\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3 \break
+
+s4 s s s
 
 s s s s
 
