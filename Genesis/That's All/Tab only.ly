@@ -44,7 +44,7 @@ e\3 e\3 e\3 e\3
 			  
 e\3 e\3 c\3 d\3 
 			  
-e\3 e\3 e\3 e\3\break
+e\3 e\3 e\3 e\3 %\break
 			  
 a,\4 b\3 d\3 e16\3 (fis16\3) a8\2 
 			  
@@ -60,7 +60,7 @@ a\3 b\3 a\3 d,\4
 
 g\3 b\2 d\2 g,\3
 
-a\3 b\3 a\3 d,\4 \break
+a\3 b\3 a\3 d,\4 %\break
 
 e\3 e\3 e\3 e\3 
 			  
@@ -76,7 +76,7 @@ e\3 e\3 e\3 e\3
 			  
 e\3 e\3 c\3 d\3 
 			  
-e\3 e\3 e\3 e\3 \break
+e\3 e\3 e\3 e\3 %\break
 
 a,\4 b\3 d\3 e16\3 (fis16\3) a8\2 
 			  
@@ -92,15 +92,17 @@ a\3 b\3 a\3 d,\4
 
 g\3 b\2 d\2 g,\3
 
-a\3 b\3 a\3 d,\4 \break
+a\3 b\3 a\3 d,\4 %\break
 
-e\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3 %g8\3
+
+%e4\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3 % this is what we had before - not right
 
 e4\3 e\3 e\3 e\3 
 			  
 e\3 e\3 c\3 d\3 
 			  
-e\3 e\3 e\3 e\3 \break
+e\3 e\3 e\3 e\3 %\break
 
 c1\3 \glissando  
 c'2..\2  g8\3 \glissando
@@ -110,15 +112,15 @@ e4\3 e\3 e\3 e\3 %\break
 c1\3 \glissando  
 c'2..\2  g8\3 \glissando
 c,1\3 \glissando
-e4\3 e\3 e\3 e\3 \break
+e4\3 e\3 e\3 e\3 %\break
 
-e\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3
 
 e4\3 e\3 e\3 e\3 
 			  
 e\3 e\3 c\3 d\3 
 			  
-e\3 e\3 e\3 e\3 \break
+e\3 e\3 e\3 e\3 %\break
 
 a,\4 b\3 d\3 e16\3 (fis16\3) a8\2 
 
@@ -134,15 +136,15 @@ a\3 b\3 a\3 d,\4
 
 g\3 b\2 d\2 g,\3
 
-a\3 b\3 a\3 d,\4 \break
+a\3 b\3 a\3 d,\4 %\break
 
-e\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3
 
 e4\3 e\3 e\3 e\3 
 			  
 e\3 e\3 c\3 d\3 
 			  
-e\3 e\3 e\3 e\3 \break
+e\3 e\3 e\3 e\3 %\break
 
 
 c1\3 \glissando  
@@ -153,7 +155,7 @@ e4\3 e\3 e\3 e\3 %\break
 c1\3 \glissando  
 c'2..\2  g8\3 \glissando
 c,1\3 \glissando
-e4\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3 \break
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3 %\break
 
 e4\3 e\3 e\3 e\3 
 			  
@@ -169,7 +171,7 @@ a,4\4 b\3 d\3 a'16\2 (b16\2) e,8\3
 
 a,4\4 b\3 d\3 e16\3 (fis16\3) a8\2 
 
-e4\3 e\3 e\3 e8\3 b16\4 cis16\4 \break
+e4\3 e\3 e\3 e8\3 b16\4 cis16\4 %\break
 
 e4\3 e\3 e\3 e8\3 b8\4
 
@@ -185,33 +187,23 @@ a,4\4 b8\3 c8\3 d4\3 e8\3 fis8\3
 
 a,4\4 b\3 d4\3 e16\3 (fis16\3) a8\2
 
-e4\3 e\3 e8\3 b8\4 d16\4 (fis16\3) g8\3 \break
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3 %\break
 
-s4 s s s
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3
 
-s s s s
+e4\3 e\3 e\3 b8\4 (cis16\4) fis16\3
 
-s s s s
+e4\3 e\3 c\3 d\3 
 
-s s s s \break
+e4\3 e\3 e8.\3 a16\2 (b16\2) e,16\3 (fis16\3) e16\3
 
-s s s s
+a,4\4 b8\3 c8\3 d4\3 e8\3 a8\2
 
-s s s s
+a,4\4 b8\3 c8\3 d4\3 e16\3 (fis16\3) a8\2
 
-s s s s
+a,4\4 b8\3 c8\3 d4\3 e16\3 (fis16\3) a8\2
 
-s s s s \break
-
-s s s s
-
-s s s s
-
-s s s s
-
-s s s s \break
-
-			  
+e4\3 e\3 e\3 e\3			  
 }		  
 }
 
